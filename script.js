@@ -17,7 +17,7 @@ buttonRight.addEventListener("click", next);
 buttonLeft.addEventListener("click", prev);
 
 let i = 0; // current image
-let j = 4; // total images
+let j = 7; // total images
 
 function next() {
   document.getElementById("content" + (i + 1)).classList.remove("active");
